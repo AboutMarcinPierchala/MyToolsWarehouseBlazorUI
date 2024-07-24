@@ -1,0 +1,74 @@
+﻿@page "/tools"
+@attribute [Authorize]
+@using BlazorMyToolsMag33.Models;
+@using BlazorMyToolsMag33.Services;
+@inject HttpClient Http
+@inject IToolsService ToolsService
+
+<PageTitle>Tools</PageTitle>
+
+<div>
+    <a class="btn btn-primary" href='/addTool'>ADD NEW TOOL</a>
+</div>
+
+<h1>Tools</h1>
+
+<p>This component demonstrates fetching data from the server.</p>
+
+@if (tools == null)
+{
+    <p><em>Loading...</em></p>
+}
+else
+{
+    <table class="table">
+        <thead>
+            <tr>
+                <th>TOOL ID</th>
+                <th>TOOL NAME</th>
+                <th>CATEGORY</th>
+                <th>WHO HAVE</th>
+                <th>WHERE IS</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var tool in tools)
+            {
+                <tr>
+                    <td>@tool.Id  </td>
+                    <td>@tool.ToolName  </td>
+                    <td>@tool.ToolCategoryName</td>
+                    <td>@tool.PersonName  </td>
+                    <td>@tool.PlaceName  </td>
+                    <td>
+                        <a class="btn btn-primary" href='/tool/@tool.Id'>Edit</a>  |
+                        <!--<a class="btn btn-danger" @onclick="() => DeleteTool(tool.Id)">Delete</a>-->
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+
+@code {
+    private bool loading;
+    private IEnumerable<Tool> tools;
+
+    protected override async Task OnInitializedAsync()
+    {
+        loading = true;
+        tools = await ToolsService.GetAll();
+
+        loading = false;
+    }
+
+    protected async Task DeleteTool(int id)
+    {
+        await ToolsService.Delete(id);
+
+        tools = await ToolsService.GetAll();
+        //loading = true;
+        //toolCategories = await ToolCategoriesService.GetAll();
+        //loading = false;
+    }
+}

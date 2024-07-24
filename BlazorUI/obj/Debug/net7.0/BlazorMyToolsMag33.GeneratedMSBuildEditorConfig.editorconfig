@@ -1,0 +1,71 @@
+is_global = true
+build_property.EnableAotAnalyzer = 
+build_property.EnableSingleFileAnalyzer = 
+build_property.EnableTrimAnalyzer = false
+build_property.IncludeAllContentForSelfExtract = 
+build_property.TargetFramework = net7.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = false
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = browser
+build_property.RootNamespace = BlazorMyToolsMag33
+build_property.RootNamespace = BlazorMyToolsMag33
+build_property.ProjectDir = C:\PRIVATE_AREA\PRYWATNE_PROJEKTY_C_SHARP\Portfolio202407\PrivateWarehouse\BlazorUI\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 7.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\PRIVATE_AREA\PRYWATNE_PROJEKTY_C_SHARP\Portfolio202407\PrivateWarehouse\BlazorUI
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/PRIVATE_AREA/PRYWATNE_PROJEKTY_C_SHARP/Portfolio202407/PrivateWarehouse/BlazorUI/App.razor]
+build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/PRIVATE_AREA/PRYWATNE_PROJEKTY_C_SHARP/Portfolio202407/PrivateWarehouse/BlazorUI/Pages/AddTool.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRkVG9vbC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/PRIVATE_AREA/PRYWATNE_PROJEKTY_C_SHARP/Portfolio202407/PrivateWarehouse/BlazorUI/Pages/Counter.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ291bnRlci5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/PRIVATE_AREA/PRYWATNE_PROJEKTY_C_SHARP/Portfolio202407/PrivateWarehouse/BlazorUI/Pages/Index.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXgucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/PRIVATE_AREA/PRYWATNE_PROJEKTY_C_SHARP/Portfolio202407/PrivateWarehouse/BlazorUI/Pages/Login.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTG9naW4ucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/PRIVATE_AREA/PRYWATNE_PROJEKTY_C_SHARP/Portfolio202407/PrivateWarehouse/BlazorUI/Pages/Logout.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTG9nb3V0LnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/PRIVATE_AREA/PRYWATNE_PROJEKTY_C_SHARP/Portfolio202407/PrivateWarehouse/BlazorUI/Pages/RedirectToLogin.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUmVkaXJlY3RUb0xvZ2luLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/PRIVATE_AREA/PRYWATNE_PROJEKTY_C_SHARP/Portfolio202407/PrivateWarehouse/BlazorUI/Pages/Tools.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVG9vbHMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/PRIVATE_AREA/PRYWATNE_PROJEKTY_C_SHARP/Portfolio202407/PrivateWarehouse/BlazorUI/Shared/SurveyPrompt.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXFN1cnZleVByb21wdC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/PRIVATE_AREA/PRYWATNE_PROJEKTY_C_SHARP/Portfolio202407/PrivateWarehouse/BlazorUI/_Imports.razor]
+build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/PRIVATE_AREA/PRYWATNE_PROJEKTY_C_SHARP/Portfolio202407/PrivateWarehouse/BlazorUI/Shared/MainLayout.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE1haW5MYXlvdXQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-tnm1z866mc
+
+[C:/PRIVATE_AREA/PRYWATNE_PROJEKTY_C_SHARP/Portfolio202407/PrivateWarehouse/BlazorUI/Shared/NavMenu.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE5hdk1lbnUucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-viwfjg2knk

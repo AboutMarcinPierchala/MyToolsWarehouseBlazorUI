@@ -1,0 +1,14 @@
+﻿@inject NavigationManager NavigationManager
+
+<Router AppAssembly="@typeof(Program).Assembly">
+    <Found Context="routeData">
+        <BlazorMyToolsMag33.Helpers.AppRouteView RouteData="@routeData" DefaultLayout="@typeof(MainLayout)" />
+        <FocusOnNavigate RouteData="@routeData" Selector="h1" />
+    </Found>
+    <NotFound>
+        @{
+            // redirect to home page if not found
+            NavigationManager.NavigateTo("");
+        }
+    </NotFound>
+</Router>
